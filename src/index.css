@@ -150,6 +150,11 @@
     transform: translateY(0);
   }
 
+  /* Carousel Navigation Hover Effects */
+  .group:hover .opacity-0 {
+    opacity: 1;
+  }
+
   /* Custom Scrollbar */
   ::-webkit-scrollbar {
     width: 8px;
@@ -221,4 +226,46 @@
 
 .hover-glow:hover {
   box-shadow: 0 0 30px rgba(30, 64, 175, 0.3);
+}
+
+/* Enhanced Carousel Animations */
+@keyframes gradient-shift {
+  '0%, 100%': {
+    backgroundPosition: '0% 50%'
+  },
+  '50%': {
+    backgroundPosition: '100% 50%'
+  }
+}
+
+@keyframes float {
+  '0%, 100%': {
+    transform: 'translateY(0px)'
+  },
+  '50%': {
+    transform: 'translateY(-10px)'
+  }
+}
+
+/* Slide Transition Effects */
+.slide-enter {
+  opacity: 0;
+  transform: scale(1.05);
+}
+
+.slide-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 1000ms ease-in-out, transform 1000ms ease-in-out;
+}
+
+.slide-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.slide-exit-active {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 1000ms ease-in-out, transform 1000ms ease-in-out;
 }
