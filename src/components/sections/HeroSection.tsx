@@ -36,7 +36,7 @@ const HeroSection = () => {
       {/* Original Hero Content Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background with animated gradient mesh */}
-        <div className="absolute inset-0 hero-gradient">
+        <div className="absolute inset-0 bg-gradient-to-br from-sky-100 via-emerald-50 to-rose-100">
           <div className="absolute inset-0 mesh-bg opacity-30" />
           <div className="absolute inset-0 bg-gradient-to-br from-transparent via-white/10 to-transparent" />
         </div>
