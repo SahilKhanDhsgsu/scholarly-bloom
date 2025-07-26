@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Design System Colors - Academic Excellence Theme */
+/* Professional Simple Design System */
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -15,8 +15,8 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 223 87% 20%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 222.2 84% 4.9%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -32,7 +32,7 @@
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 223 87% 20%;
+    --ring: 217.2 91.2% 59.8%;
 
     --radius: 0.75rem;
 
@@ -53,7 +53,7 @@
     --card-foreground: 210 40% 98%;
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
-    --primary: 210 40% 98%;
+    --primary: 217.2 91.2% 59.8%;
     --primary-foreground: 222.2 47.4% 11.2%;
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
@@ -65,7 +65,7 @@
     --destructive-foreground: 210 40% 98%;
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --ring: 217.2 91.2% 59.8%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -104,10 +104,10 @@
   }
 }
 
-/* Glassmorphism Effects */
+/* Clean Professional Effects */
 @layer components {
   .glass {
-    @apply bg-white/10 backdrop-blur-md border border-white/20;
+    @apply bg-white/80 backdrop-blur-md border border-gray-200/50;
   }
   
   .glass-dark {
@@ -115,16 +115,16 @@
   }
 
   .card-glass {
-    @apply bg-white/95 backdrop-blur-sm border border-white/20 shadow-xl;
+    @apply bg-white/95 backdrop-blur-sm border border-gray-200/30 shadow-xl;
   }
 
   .gradient-text {
-    @apply bg-gradient-to-r from-academic-blue via-academic-purple to-academic-emerald bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent;
   }
 
   .gradient-border {
     position: relative;
-    background: linear-gradient(45deg, #1e40af, #7c3aed, #059669, #f59e0b);
+    background: linear-gradient(45deg, #3b82f6, #8b5cf6, #10b981, #f59e0b);
     border-radius: 12px;
     padding: 1px;
   }
@@ -165,17 +165,17 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    @apply bg-academic-blue/50 rounded-full;
+    @apply bg-blue-500/50 rounded-full;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    @apply bg-academic-blue/70;
+    @apply bg-blue-500/70;
   }
 }
 
 /* Mesh Background Pattern */
 .mesh-bg {
-  background: linear-gradient(135deg, #1e40af11 0%, #7c3aed11 25%, #05966911 50%, #f59e0b11 75%, #1e40af11 100%);
+  background: linear-gradient(135deg, #3b82f611 0%, #8b5cf611 25%, #10b98111 50%, #f59e0b11 75%, #3b82f611 100%);
   background-size: 400% 400%;
   animation: gradient-shift 15s ease infinite;
 }
@@ -183,9 +183,9 @@
 /* Hero Section Styles */
 .hero-gradient {
   background: linear-gradient(135deg, 
-    rgba(0, 255, 238, 0.9) 0%, 
-    rgba(202, 202, 202, 0.8) 50%, 
-    rgba(0, 157, 255, 0.9) 100%
+    rgba(59, 130, 246, 0.9) 0%, 
+    rgba(139, 92, 246, 0.8) 50%, 
+    rgba(16, 185, 129, 0.9) 100%
   );
 }
 
@@ -225,7 +225,7 @@
 }
 
 .hover-glow:hover {
-  box-shadow: 0 0 30px rgba(30, 64, 175, 0.3);
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.3);
 }
 
 /* Enhanced Carousel Animations */

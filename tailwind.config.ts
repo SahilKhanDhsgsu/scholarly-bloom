@@ -68,19 +68,6 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				},
-				// Academic color palette
-				academic: {
-					blue: '#7ea0ef',
-					'blue-light': '#3b82f6',
-					purple: '#9c3aed',
-					'purple-light': '#a855f7',
-					emerald: '#a5e6f9',
-					'emerald-light': '#10b981',
-					gold: '#f5ee7b',
-					'gold-light': '#fbbf24',
-					charcoal: '#374151',
-					'cool-gray': '#6b7280'
 				}
 			},
 			borderRadius: {
@@ -164,8 +151,8 @@ export default {
 			backgroundImage: {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
 				'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-				'mesh-gradient': 'linear-gradient(45deg, #1e40af 0%, #7c3aed 25%, #059669 50%, #f59e0b 75%, #1e40af 100%)',
-				'hero-gradient': 'linear-gradient(135deg, #1e40af 0%, #7c3aed 50%, #059669 100%)'
+				'mesh-gradient': 'linear-gradient(45deg, #3b82f6 0%, #8b5cf6 25%, #10b981 50%, #f59e0b 75%, #3b82f6 100%)',
+				'hero-gradient': 'linear-gradient(135deg, #3b82f6 0%, #8b5cf6 50%, #10b981 100%)'
 			}
 		}
 	},

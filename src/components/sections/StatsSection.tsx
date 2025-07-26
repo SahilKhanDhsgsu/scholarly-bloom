@@ -7,7 +7,7 @@ const StatsSection = () => {
   const achievements = [
     {
       icon: BarChart3,
-      iconColor: 'text-emerald-300',
+      iconColor: 'text-emerald-400',
       title: 'Research Impact',
       value: `${(statsData.global.totalDownloads / 1000000).toFixed(1)}M`,
       label: 'Total Downloads',
@@ -15,7 +15,7 @@ const StatsSection = () => {
     },
     {
       icon: TrendingUp,
-      iconColor: 'text-rose-300',
+      iconColor: 'text-rose-400',
       title: 'Growing Community',
       value: `${statsData.global.monthlyGrowth}%`,
       label: 'Monthly Growth',
@@ -23,7 +23,7 @@ const StatsSection = () => {
     },
     {
       icon: Globe2,
-      iconColor: 'text-cyan-300',
+      iconColor: 'text-cyan-400',
       title: 'Global Reach',
       value: statsData.global.countriesServed,
       label: 'Countries',
@@ -31,7 +31,7 @@ const StatsSection = () => {
     },
     {
       icon: Award,
-      iconColor: 'text-yellow-300',
+      iconColor: 'text-yellow-400',
       title: 'Quality Standards',
       value: `${statsData.global.openAccessPercent}%`,
       label: 'Open Access',
@@ -42,7 +42,7 @@ const StatsSection = () => {
   return (
     <section className="py-20 relative overflow-hidden">
       {/* Background with subtle pattern */}
-      <div className="absolute inset-0 bg-gradient-to-br from-sky-700 to-blue-800">
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-700 to-slate-800">
         <div className="absolute inset-0 bg-black/20" />
         <div className="absolute inset-0" style={{
           backgroundImage: `radial-gradient(circle at 1px 1px, rgba(255,255,255,0.1) 1px, transparent 0)`,
@@ -69,7 +69,7 @@ const StatsSection = () => {
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 rounded-2xl mb-6">
-                <achievement.icon className={ `w-8 h-8 text-white ${achievement.iconColor}`} />
+                <achievement.icon className={`w-8 h-8 ${achievement.iconColor}`} />
               </div>
               
               <h3 className="text-3xl font-bold font-inter text-white mb-2">

@@ -17,8 +17,8 @@ const FeaturedSection = () => {
         {/* Featured Articles */}
         <div className="mb-20">
           <div className="text-center mb-12">
-            <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-300/50 to-yellow-300/50 px-4 py-2 rounded-full mb-4">
-              <Sparkles className="w-4 h-4 text-blue-900" />
+            <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-100 to-purple-100 px-4 py-2 rounded-full mb-4">
+              <Sparkles className="w-4 h-4 text-blue-600" />
               <span className="text-sm font-medium text-blue-900">Featured Research</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-playfair font-bold text-gray-900 mb-4">
@@ -54,9 +54,9 @@ const FeaturedSection = () => {
         {/* Featured Journals */}
         <div>
           <div className="text-center mb-12">
-            <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-300/50 to-yellow-300/50 px-4 py-2 rounded-full mb-4">
-              <Sparkles className="w-4 h-4 text-blue-900" />
-              <span className="text-sm font-medium text-blue-900">Premier Journals</span>
+            <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-emerald-100 to-blue-100 px-4 py-2 rounded-full mb-4">
+              <Sparkles className="w-4 h-4 text-emerald-600" />
+              <span className="text-sm font-medium text-emerald-900">Premier Journals</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-playfair font-bold text-gray-900 mb-4">
               Leading Publications
