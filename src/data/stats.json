@@ -1,0 +1,32 @@
+
+{
+  "global": {
+    "totalArticles": 125678,
+    "totalJournals": 342,
+    "totalResearchers": 89456,
+    "totalDownloads": 15678923,
+    "monthlyGrowth": 12.5,
+    "countriesServed": 156,
+    "openAccessPercent": 67
+  },
+  "recent": {
+    "articlesThisMonth": 1234,
+    "newResearchers": 567,
+    "downloadsToday": 8923,
+    "citationsLastWeek": 4567
+  },
+  "trending": {
+    "topKeywords": [
+      { "term": "machine learning", "count": 2345 },
+      { "term": "climate change", "count": 1987 },
+      { "term": "quantum computing", "count": 1654 },
+      { "term": "artificial intelligence", "count": 1432 },
+      { "term": "renewable energy", "count": 1298 }
+    ],
+    "topJournals": [
+      { "id": "enviro-data-sci", "downloads": 45678 },
+      { "id": "neural-comp-bio", "downloads": 38942 },
+      { "id": "quantum-materials", "downloads": 32156 }
+    ]
+  }
+}

@@ -1,0 +1,243 @@
+
+[
+  {
+    "id": "ml-climate-2024",
+    "title": "Machine Learning Applications in Climate Modeling: A Comprehensive Review",
+    "abstract": "This comprehensive review examines the transformative impact of machine learning techniques on climate science, highlighting recent advances in neural networks, ensemble methods, and deep learning approaches for climate prediction and analysis. We explore applications in temperature forecasting, extreme weather detection, and climate change attribution studies.",
+    "authors": [
+      {
+        "name": "Dr. Sarah Chen",
+        "affiliation": "MIT Climate Lab",
+        "photo": "https://images.unsplash.com/photo-1494790108755-2616b612b412?auto=format&fit=crop&q=80&w=150",
+        "orcid": "0000-0002-1825-0097",
+        "email": "s.chen@mit.edu"
+      },
+      {
+        "name": "Prof. Michael Rodriguez",
+        "affiliation": "Stanford Earth Sciences",
+        "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=150",
+        "orcid": "0000-0003-2456-7890",
+        "email": "mrodriguez@stanford.edu"
+      }
+    ],
+    "journal": "Environmental Data Science",
+    "journalId": "enviro-data-sci",
+    "issue": "Vol 5, Issue 2",
+    "pages": "45-78",
+    "publishedDate": "2024-03-15",
+    "doi": "10.1000/edsc.2024.0234",
+    "coverImage": "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?auto=format&fit=crop&q=80&w=800",
+    "metrics": {
+      "downloads": 15420,
+      "citations": 89,
+      "altmetric": 234,
+      "views": 28456
+    },
+    "keywords": ["machine learning", "climate modeling", "neural networks", "weather prediction", "deep learning"],
+    "categories": ["Environmental Science", "Data Science", "Climate Research"],
+    "openAccess": true,
+    "pdfUrl": "/papers/ml-climate-2024.pdf",
+    "status": "published",
+    "language": "en"
+  },
+  {
+    "id": "neural-interfaces-2024",
+    "title": "Next-Generation Neural Interfaces: Brain-Computer Integration Technologies",
+    "abstract": "We present breakthrough developments in neural interface technology, focusing on high-resolution brain-computer interfaces that enable direct neural control of external devices. Our research demonstrates novel electrode designs and signal processing algorithms that significantly improve the fidelity of neural signal acquisition and interpretation.",
+    "authors": [
+      {
+        "name": "Dr. Elena Volkov",
+        "affiliation": "Caltech Neurotechnology Lab",
+        "photo": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150",
+        "orcid": "0000-0001-9876-5432",
+        "email": "evolkov@caltech.edu"
+      },
+      {
+        "name": "Prof. David Kim",
+        "affiliation": "Johns Hopkins BME",
+        "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150",
+        "orcid": "0000-0002-3456-1890",
+        "email": "dkim@jhu.edu"
+      }
+    ],
+    "journal": "Neural Computational Biology",
+    "journalId": "neural-comp-bio",
+    "issue": "Vol 7, Issue 4",
+    "pages": "112-145",
+    "publishedDate": "2024-02-28",
+    "doi": "10.1038/ncb.2024.0087",
+    "coverImage": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=800",
+    "metrics": {
+      "downloads": 23567,
+      "citations": 156,
+      "altmetric": 445,
+      "views": 41234
+    },
+    "keywords": ["neural interfaces", "brain-computer interface", "neurotechnology", "signal processing", "biomedical engineering"],
+    "categories": ["Neuroscience", "Biomedical Engineering", "Technology"],
+    "openAccess": false,
+    "pdfUrl": "/papers/neural-interfaces-2024.pdf",
+    "status": "published",
+    "language": "en"
+  },
+  {
+    "id": "quantum-computing-2024",
+    "title": "Quantum Error Correction in Superconducting Qubits: Recent Advances and Future Prospects",
+    "abstract": "This paper reviews the latest developments in quantum error correction techniques specifically designed for superconducting qubit systems. We discuss novel surface code implementations, logical qubit encodings, and experimental demonstrations of fault-tolerant quantum computation protocols that bring us closer to practical quantum computing applications.",
+    "authors": [
+      {
+        "name": "Dr. Rajesh Patel",
+        "affiliation": "IBM Quantum Research",
+        "photo": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=150",
+        "orcid": "0000-0003-7890-2345",
+        "email": "rpatel@ibm.com"
+      },
+      {
+        "name": "Prof. Lisa Zhang",
+        "affiliation": "University of Waterloo",
+        "photo": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=150",
+        "orcid": "0000-0001-4567-8901",
+        "email": "lzhang@uwaterloo.ca"
+      }
+    ],
+    "journal": "Quantum Materials Research",
+    "journalId": "quantum-materials",
+    "issue": "Vol 9, Issue 3",
+    "pages": "78-105",
+    "publishedDate": "2024-01-20",
+    "doi": "10.1088/qmr.2024.0156",
+    "coverImage": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
+    "metrics": {
+      "downloads": 18923,
+      "citations": 234,
+      "altmetric": 567,
+      "views": 35678
+    },
+    "keywords": ["quantum computing", "error correction", "superconducting qubits", "fault tolerance", "quantum physics"],
+    "categories": ["Quantum Physics", "Computer Science", "Materials Science"],
+    "openAccess": true,
+    "pdfUrl": "/papers/quantum-computing-2024.pdf",
+    "status": "published",
+    "language": "en"
+  },
+  {
+    "id": "ai-drug-discovery-2024",
+    "title": "Artificial Intelligence in Drug Discovery: Accelerating Pharmaceutical Innovation",
+    "abstract": "We present a comprehensive analysis of AI-driven drug discovery platforms, showcasing how machine learning algorithms are revolutionizing pharmaceutical research. Our study includes case studies of successful AI-discovered compounds, predictive models for drug-target interactions, and novel approaches to optimize clinical trial design and patient stratification.",
+    "authors": [
+      {
+        "name": "Dr. Amanda Foster",
+        "affiliation": "Harvard Medical School",
+        "photo": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=150",
+        "orcid": "0000-0002-5678-9012",
+        "email": "afoster@hms.harvard.edu"
+      },
+      {
+        "name": "Prof. Carlos Mendoza",
+        "affiliation": "UCSF Pharmaceutical Sciences",
+        "photo": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&q=80&w=150",
+        "orcid": "0000-0004-1234-5678",
+        "email": "cmendoza@ucsf.edu"
+      }
+    ],
+    "journal": "Biomedical AI Frontiers",
+    "journalId": "biomed-ai",
+    "issue": "Vol 4, Issue 1",
+    "pages": "23-56",
+    "publishedDate": "2024-04-10",
+    "doi": "10.1109/baif.2024.0034",
+    "coverImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?auto=format&fit=crop&q=80&w=800",
+    "metrics": {
+      "downloads": 34567,
+      "citations": 67,
+      "altmetric": 389,
+      "views": 52341
+    },
+    "keywords": ["artificial intelligence", "drug discovery", "pharmaceutical research", "machine learning", "clinical trials"],
+    "categories": ["Artificial Intelligence", "Pharmaceutical Sciences", "Biomedical Research"],
+    "openAccess": true,
+    "pdfUrl": "/papers/ai-drug-discovery-2024.pdf",
+    "status": "published",
+    "language": "en"
+  },
+  {
+    "id": "solar-efficiency-2024",
+    "title": "Perovskite Solar Cells: Breaking the 30% Efficiency Barrier",
+    "abstract": "This groundbreaking research demonstrates the achievement of over 30% power conversion efficiency in perovskite solar cells through innovative tandem cell architectures and advanced passivation techniques. We present detailed characterization studies and stability analyses that pave the way for commercial deployment of next-generation photovoltaic technologies.",
+    "authors": [
+      {
+        "name": "Dr. Yuki Tanaka",
+        "affiliation": "Tokyo Institute of Technology",
+        "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=150",
+        "orcid": "0000-0005-2345-6789",
+        "email": "ytanaka@titech.ac.jp"
+      },
+      {
+        "name": "Prof. Maria Santos",
+        "affiliation": "University of Cambridge",
+        "photo": "https://images.unsplash.com/photo-1494790108755-2616b612b412?auto=format&fit=crop&q=80&w=150",
+        "orcid": "0000-0003-8901-2345",
+        "email": "ms2000@cam.ac.uk"
+      }
+    ],
+    "journal": "Sustainable Energy Systems",
+    "journalId": "sustainable-energy",
+    "issue": "Vol 17, Issue 7",
+    "pages": "134-167",
+    "publishedDate": "2024-03-25",
+    "doi": "10.3390/ses17070134",
+    "coverImage": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&q=80&w=800",
+    "metrics": {
+      "downloads": 28934,
+      "citations": 123,
+      "altmetric": 678,
+      "views": 47823
+    },
+    "keywords": ["solar cells", "perovskite", "photovoltaics", "renewable energy", "efficiency"],
+    "categories": ["Renewable Energy", "Materials Science", "Engineering"],
+    "openAccess": true,
+    "pdfUrl": "/papers/solar-efficiency-2024.pdf",
+    "status": "published",
+    "language": "en"
+  },
+  {
+    "id": "mars-exploration-2024",
+    "title": "Advanced Propulsion Systems for Mars Exploration: Ion Drive Technologies",
+    "abstract": "We present innovative ion propulsion system designs optimized for Mars exploration missions, featuring enhanced thrust-to-weight ratios and improved fuel efficiency. Our research includes computational fluid dynamics simulations, prototype testing results, and mission trajectory analyses that demonstrate the potential for significantly reduced travel times to Mars.",
+    "authors": [
+      {
+        "name": "Dr. Robert Johnson",
+        "affiliation": "NASA Jet Propulsion Laboratory",
+        "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150",
+        "orcid": "0000-0006-3456-7890",
+        "email": "rjohnson@jpl.nasa.gov"
+      },
+      {
+        "name": "Prof. Anna Kowalski",
+        "affiliation": "MIT Aeronautics",
+        "photo": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150",
+        "orcid": "0000-0007-4567-8901",
+        "email": "akowalski@mit.edu"
+      }
+    ],
+    "journal": "Space Exploration Technologies",
+    "journalId": "space-exploration",
+    "issue": "Vol 49, Issue 6",
+    "pages": "89-124",
+    "publishedDate": "2024-02-15",
+    "doi": "10.1016/j.set.2024.0089",
+    "coverImage": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?auto=format&fit=crop&q=80&w=800",
+    "metrics": {
+      "downloads": 21456,
+      "citations": 78,
+      "altmetric": 345,
+      "views": 39567
+    },
+    "keywords": ["space exploration", "ion propulsion", "Mars mission", "aerospace engineering", "propulsion systems"],
+    "categories": ["Aerospace Engineering", "Space Science", "Technology"],
+    "openAccess": false,
+    "pdfUrl": "/papers/mars-exploration-2024.pdf",
+    "status": "published",
+    "language": "en"
+  }
+]
