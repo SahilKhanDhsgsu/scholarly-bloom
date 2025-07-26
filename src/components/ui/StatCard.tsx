@@ -55,11 +55,11 @@ const StatCard: React.FC<StatCardProps> = ({
       <div className="flex items-start justify-between">
         <div className="flex-1">
           <p className="text-sm font-medium text-gray-600 mb-1">{title}</p>
-          <p className="text-3xl font-bold font-inter text-gray-900">
+          <p className="text-3xl font-bold font-playfair text-gray-900">
             {formatValue(value)}
           </p>
           {change && (
-            <p className="text-sm text-emerald-600 font-medium mt-1">
+            <p className="text-sm text-academic-emerald font-medium mt-1">
               {change}
             </p>
           )}

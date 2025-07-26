@@ -37,11 +37,11 @@ const JournalCard: React.FC<JournalCardProps> = ({
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
           <div className="absolute top-4 left-4 flex items-center space-x-2">
             {journal.openAccess && (
-              <Badge className="bg-blue-300 text-black">
+              <Badge className="bg-academic-emerald text-white">
                 Open Access
               </Badge>
             )}
-            <Badge className="bg-yellow-300 text-black">
+            <Badge className="bg-academic-gold text-white">
               IF {journal.impactFactor}
             </Badge>
           </div>

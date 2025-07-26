@@ -25,8 +25,8 @@ const GradientButton: React.FC<GradientButtonProps> = ({
   const baseClasses = "relative overflow-hidden transition-all duration-300 font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed";
   
   const variants = {
-    primary: "bg-gradient-to-r from-academic-blue to-academic-purple text-black/90 hover:from-academic-blue/90 hover:to-academic-purple/90 hover:scale-105 hover:shadow-xl focus:ring-academic-blue",
-    secondary: "bg-gradient-to-r from-academic-emerald to-academic-gold text-black/90 hover:from-academic-emerald/90 hover:to-academic-gold/90 hover:scale-105 hover:shadow-xl focus:ring-academic-emerald",
+    primary: "bg-gradient-to-r from-academic-blue to-academic-purple text-white hover:from-academic-blue/90 hover:to-academic-purple/90 hover:scale-105 hover:shadow-xl focus:ring-academic-blue",
+    secondary: "bg-gradient-to-r from-academic-emerald to-academic-gold text-white hover:from-academic-emerald/90 hover:to-academic-gold/90 hover:scale-105 hover:shadow-xl focus:ring-academic-emerald",
     ghost: "bg-transparent text-academic-blue border-2 border-academic-blue hover:bg-academic-blue hover:text-white hover:scale-105 focus:ring-academic-blue"
   };
 
