@@ -8,12 +8,12 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-white/95 backdrop-blur-md border-b border-gray-200/50">
+    <header className="fixed top-0 w-full z-50 bg-white/10 backdrop-blur-sm border-gray-200/50 shadow-2xl">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-r from-academic-blue to-academic-purple rounded-lg flex items-center justify-center">
+            <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-500 rounded-lg flex items-center justify-center">
               <BookOpen className="w-5 h-5 text-white" />
             </div>
             <h1 className="text-xl font-playfair font-bold gradient-text">OpenScience</h1>
@@ -21,16 +21,16 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#browse" className="text-gray-700 hover:text-academic-blue transition-colors font-medium">
+            <a href="#browse" className="text-blue-500 hover:text-academic-blue transition-colors font-medium">
               Browse
             </a>
-            <a href="#journals" className="text-gray-700 hover:text-academic-blue transition-colors font-medium">
+            <a href="#journals" className="text-blue-500 hover:text-academic-blue transition-colors font-medium">
               Journals
             </a>
-            <a href="#submit" className="text-gray-700 hover:text-academic-blue transition-colors font-medium">
+            <a href="#submit" className="text-blue-500 hover:text-academic-blue transition-colors font-medium">
               Submit
             </a>
-            <a href="#about" className="text-gray-700 hover:text-academic-blue transition-colors font-medium">
+            <a href="#about" className="text-blue-500 hover:text-academic-blue transition-colors font-medium">
               About
             </a>
           </nav>
@@ -50,7 +50,7 @@ const Header = () => {
               Sign In
             </Button>
             <Button 
-              className="bg-gradient-to-r from-academic-blue to-academic-purple text-white hover:from-academic-blue/90 hover:to-academic-purple/90 transition-all duration-300"
+              className="bg-gradient-to-r from-blue-500 to-blue-500 text-white hover:from-blue-500/90 hover:to-blue-500/90 transition-all duration-300"
               size="sm"
             >
               Submit Paper
@@ -95,7 +95,7 @@ const Header = () => {
                   Sign In
                 </Button>
                 <Button 
-                  className="bg-gradient-to-r from-academic-blue to-academic-purple text-white"
+                  className="bg-gradient-to-r from-blue-500 to-blue-500 text-white"
                   size="sm"
                 >
                   Submit Paper
