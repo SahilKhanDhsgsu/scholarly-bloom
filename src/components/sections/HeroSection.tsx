@@ -51,13 +51,13 @@ const HeroSection = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           {/* Main heading */}
-          <h1 className="text-5xl md:text-7xl font-playfair font-bold text-white mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-playfair font-bold text-sky-900 mb-6 leading-tight">
             {typedText}
             <span className="animate-pulse">|</span>
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-4xl mx-auto font-light">
+          <p className="text-xl md:text-2xl text-sky-900/90 mb-8 max-w-4xl mx-auto font-light">
             The premier platform connecting researchers worldwide with cutting-edge scientific publications, 
             fostering collaboration and accelerating discovery across all disciplines.
           </p>
@@ -75,7 +75,7 @@ const HeroSection = () => {
             <GradientButton 
               variant="ghost" 
               size="lg"
-              className="min-w-48 text-white border-white hover:bg-white hover:text-academic-blue"
+              className="min-w-48 text-sky-900 border-white hover:bg-white hover:text-sky-900"
             >
               Publish Your Work
             </GradientButton>
