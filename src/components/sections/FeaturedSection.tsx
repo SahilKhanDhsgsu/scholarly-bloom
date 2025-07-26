@@ -17,9 +17,9 @@ const FeaturedSection = () => {
         {/* Featured Articles */}
         <div className="mb-20">
           <div className="text-center mb-12">
-            <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-academic-blue/10 to-academic-purple/10 px-4 py-2 rounded-full mb-4">
-              <Sparkles className="w-4 h-4 text-academic-blue" />
-              <span className="text-sm font-medium text-academic-blue">Featured Research</span>
+            <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-300/50 to-yellow-300/50 px-4 py-2 rounded-full mb-4">
+              <Sparkles className="w-4 h-4 text-blue-900" />
+              <span className="text-sm font-medium text-blue-900">Featured Research</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-playfair font-bold text-gray-900 mb-4">
               Breakthrough Discoveries
@@ -54,9 +54,9 @@ const FeaturedSection = () => {
         {/* Featured Journals */}
         <div>
           <div className="text-center mb-12">
-            <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-academic-emerald/10 to-academic-gold/10 px-4 py-2 rounded-full mb-4">
-              <Sparkles className="w-4 h-4 text-academic-emerald" />
-              <span className="text-sm font-medium text-academic-emerald">Premier Journals</span>
+            <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-300/50 to-yellow-300/50 px-4 py-2 rounded-full mb-4">
+              <Sparkles className="w-4 h-4 text-blue-900" />
+              <span className="text-sm font-medium text-blue-900">Premier Journals</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-playfair font-bold text-gray-900 mb-4">
               Leading Publications
