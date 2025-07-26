@@ -7,7 +7,6 @@ const StatsSection = () => {
   const achievements = [
     {
       icon: BarChart3,
-      iconColor: 'text-emerald-300',
       title: 'Research Impact',
       value: `${(statsData.global.totalDownloads / 1000000).toFixed(1)}M`,
       label: 'Total Downloads',
@@ -15,7 +14,6 @@ const StatsSection = () => {
     },
     {
       icon: TrendingUp,
-      iconColor: 'text-rose-300',
       title: 'Growing Community',
       value: `${statsData.global.monthlyGrowth}%`,
       label: 'Monthly Growth',
@@ -23,7 +21,6 @@ const StatsSection = () => {
     },
     {
       icon: Globe2,
-      iconColor: 'text-cyan-300',
       title: 'Global Reach',
       value: statsData.global.countriesServed,
       label: 'Countries',
@@ -31,7 +28,6 @@ const StatsSection = () => {
     },
     {
       icon: Award,
-      iconColor: 'text-yellow-300',
       title: 'Quality Standards',
       value: `${statsData.global.openAccessPercent}%`,
       label: 'Open Access',
@@ -42,7 +38,7 @@ const StatsSection = () => {
   return (
     <section className="py-20 relative overflow-hidden">
       {/* Background with subtle pattern */}
-      <div className="absolute inset-0 bg-gradient-to-br from-sky-700 to-blue-800">
+      <div className="absolute inset-0 bg-gradient-to-br from-academic-blue to-academic-purple">
         <div className="absolute inset-0 bg-black/20" />
         <div className="absolute inset-0" style={{
           backgroundImage: `radial-gradient(circle at 1px 1px, rgba(255,255,255,0.1) 1px, transparent 0)`,
@@ -65,14 +61,14 @@ const StatsSection = () => {
           {achievements.map((achievement, index) => (
             <div 
               key={index}
-              className="glass bg-black/10 text-center p-8 rounded-3xl hover-lift"
+              className="glass text-center p-8 rounded-3xl hover-lift"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 rounded-2xl mb-6">
-                <achievement.icon className={ `w-8 h-8 text-white ${achievement.iconColor}`} />
+                <achievement.icon className="w-8 h-8 text-white" />
               </div>
               
-              <h3 className="text-3xl font-bold font-inter text-white mb-2">
+              <h3 className="text-3xl font-bold font-playfair text-white mb-2">
                 {achievement.value}
               </h3>
               
@@ -89,22 +85,22 @@ const StatsSection = () => {
 
         {/* Additional metrics */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-          <div className="glass p-6 rounded-2xl bg-black/10">
-            <h4 className="text-2xl font-bold text-white mb-2 font-inter">
+          <div className="glass p-6 rounded-2xl">
+            <h4 className="text-2xl font-bold text-white mb-2">
               {statsData.recent.articlesThisMonth.toLocaleString()}
             </h4>
             <p className="text-white/80">New Articles This Month</p>
           </div>
           
-          <div className="glass p-6 rounded-2xl bg-black/10">
-            <h4 className="text-2xl font-bold text-white mb-2 font-inter">
+          <div className="glass p-6 rounded-2xl">
+            <h4 className="text-2xl font-bold text-white mb-2">
               {statsData.recent.newResearchers.toLocaleString()}
             </h4>
             <p className="text-white/80">New Researchers Joined</p>
           </div>
           
-          <div className="glass p-6 rounded-2xl bg-black/10">
-            <h4 className="text-2xl font-bold text-white mb-2 font-inter">
+          <div className="glass p-6 rounded-2xl">
+            <h4 className="text-2xl font-bold text-white mb-2">
               {statsData.recent.citationsLastWeek.toLocaleString()}
             </h4>
             <p className="text-white/80">Citations This Week</p>

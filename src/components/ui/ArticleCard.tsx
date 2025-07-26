@@ -1,8 +1,9 @@
-import React from "react";
-import { Calendar, Download, Eye, Heart, ExternalLink } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import GradientButton from "./GradientButton";
+
+import React from 'react';
+import { Calendar, Download, Eye, Heart, ExternalLink } from 'lucide-react';
+import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
+import GradientButton from './GradientButton';
 
 interface ArticleCardProps {
   article: {
@@ -26,29 +27,29 @@ interface ArticleCardProps {
     keywords: string[];
     openAccess: boolean;
   };
-  variant?: "default" | "featured" | "compact";
+  variant?: 'default' | 'featured' | 'compact';
 }
 
-const ArticleCard: React.FC<ArticleCardProps> = ({
-  article,
-  variant = "default",
+const ArticleCard: React.FC<ArticleCardProps> = ({ 
+  article, 
+  variant = 'default' 
 }) => {
   const formatDate = (dateString: string) => {
-    return new Date(dateString).toLocaleDateString("en-US", {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
+    return new Date(dateString).toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
     });
   };
 
   const formatNumber = (num: number) => {
     if (num >= 1000) {
-      return (num / 1000).toFixed(1) + "K";
+      return (num / 1000).toFixed(1) + 'K';
     }
     return num.toString();
   };
 
-  if (variant === "featured") {
+  if (variant === 'featured') {
     return (
       <div className="card-glass hover-lift rounded-3xl overflow-hidden group cursor-pointer">
         {article.coverImage && (
@@ -60,18 +61,16 @@ const ArticleCard: React.FC<ArticleCardProps> = ({
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             {article.openAccess && (
-              <Badge className="absolute top-4 left-4 bg-blue-300 text-black">
+              <Badge className="absolute top-4 left-4 bg-academic-emerald text-white">
                 Open Access
               </Badge>
             )}
           </div>
         )}
-
+        
         <div className="p-8">
           <div className="mb-4">
-            <p className="text-sm text-academic-blue font-medium mb-2">
-              {article.journal}
-            </p>
+            <p className="text-sm text-academic-blue font-medium mb-2">{article.journal}</p>
             <h3 className="text-2xl font-playfair font-bold text-gray-900 mb-4 line-clamp-2 group-hover:text-academic-blue transition-colors">
               {article.title}
             </h3>
@@ -91,9 +90,7 @@ const ArticleCard: React.FC<ArticleCardProps> = ({
                   />
                 )}
                 <div>
-                  <p className="text-sm font-medium text-gray-900">
-                    {author.name}
-                  </p>
+                  <p className="text-sm font-medium text-gray-900">{author.name}</p>
                   <p className="text-xs text-gray-600">{author.affiliation}</p>
                 </div>
               </div>
@@ -156,27 +153,25 @@ const ArticleCard: React.FC<ArticleCardProps> = ({
             />
           </div>
         )}
-
+        
         <div className="flex-1 min-w-0">
           <div className="flex items-start justify-between mb-2">
-            <p className="text-sm text-academic-blue font-medium">
-              {article.journal}
-            </p>
+            <p className="text-sm text-academic-blue font-medium">{article.journal}</p>
             {article.openAccess && (
-              <Badge className="bg-blue-300 text-black text-xs">
+              <Badge className="bg-academic-emerald text-white text-xs">
                 Open Access
               </Badge>
             )}
           </div>
-
+          
           <h3 className="text-lg font-semibold text-gray-900 mb-2 line-clamp-2 group-hover:text-academic-blue transition-colors">
             {article.title}
           </h3>
-
+          
           <p className="text-sm text-gray-600 line-clamp-2 mb-3">
             {article.abstract}
           </p>
-
+          
           <div className="flex items-center space-x-2 mb-3">
             <span className="text-sm font-medium text-gray-900">
               {article.authors[0]?.name}
@@ -187,7 +182,7 @@ const ArticleCard: React.FC<ArticleCardProps> = ({
               </span>
             )}
           </div>
-
+          
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4 text-xs text-gray-600">
               <div className="flex items-center space-x-1">

@@ -71,13 +71,13 @@ export default {
 				},
 				// Academic color palette
 				academic: {
-					blue: '#7ea0ef',
+					blue: '#1e40af',
 					'blue-light': '#3b82f6',
-					purple: '#9c3aed',
+					purple: '#7c3aed',
 					'purple-light': '#a855f7',
-					emerald: '#a5e6f9',
+					emerald: '#059669',
 					'emerald-light': '#10b981',
-					gold: '#f5ee7b',
+					gold: '#f59e0b',
 					'gold-light': '#fbbf24',
 					charcoal: '#374151',
 					'cool-gray': '#6b7280'
